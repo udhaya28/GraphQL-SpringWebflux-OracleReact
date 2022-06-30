@@ -1,0 +1,19 @@
+type Query {
+getApplicationById(appId: ID): Application
+getApplicationByName(name: String): Application
+getAllApplication: [Application]
+}
+
+type Application {
+appId : ID
+name : String
+type : String
+description : String
+code : String
+network_segment: String
+}
+
+
+input ApplicationInput {
+ name: String
+}

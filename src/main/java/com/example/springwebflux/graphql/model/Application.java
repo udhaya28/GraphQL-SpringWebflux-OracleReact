@@ -22,12 +22,6 @@ public class Application {
     @Column( "DESCRIPTION")
     private String description;
 
-    @Column( "NETWORK_SEGMENT")
-    private String network_segment;
-
-    @Column( "TYPE")
-    private String type;
-
     @Column( "NAME")
     private String name;
 }

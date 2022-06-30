@@ -7,10 +7,7 @@ getAllApplication: [Application]
 type Application {
 appId : ID
 name : String
-type : String
 description : String
-code : String
-network_segment: String
 }
 
 
